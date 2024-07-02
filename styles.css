@@ -1,0 +1,61 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Abel", sans-serif;
+  text-align: center;
+  align-content: center;
+}
+
+#atencao {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-size: 1.5rem;
+
+  padding: 0rem 2rem;
+  border-radius: 0.3rem;
+  line-height: 1.5;
+  margin-bottom: 4.5rem;
+
+  left: 50%;
+
+  animation: piscar 2.5s infinite; 
+}
+
+@keyframes piscar {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 2.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+a {
+  background-color: blueviolet;
+  color: white;
+  text-decoration: none;
+
+}
+
+#envio {
+
+}
+
+#bg-image {
+
+}

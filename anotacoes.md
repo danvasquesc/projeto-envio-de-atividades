@@ -106,3 +106,64 @@ https://images.pexels.com/photos/733852/pexels-photo-733852.jpeg
   top: 3rem;
   left: 50%;
   transform: translate(-50%, -50%); */
+
+
+
+
+
+  div dos botoes
+
+ <!--> <div>
+    <div>
+        <a class="button" href="(LINK)" style=" border:1px solid; padding: 11px 21px; vertical-align: middle; background:#2D888F; color:white;border-radius:6px; font-size: 20px; font-family:helvetica, serif;text-decoration:none;">Abra sua conta</a>
+    </div>
+    <div>
+        <a class="button" href="(LINK)" style=" border:1px solid; padding: 11px 21px; vertical-align: middle; background:#2D888F; color:white;border-radius:6px; font-size: 20px; font-family:helvetica, serif;text-decoration:none;">Minha conta</a>
+    </div>
+</div> -->
+
+
+
+
+     <!--  <div id="pdf">
+          <ul>
+            <li><a href="link">PDF - 2ºANO</a></li>
+            <li><a href="link">PDF - 3ºANO</a></li>
+          </ul>
+        </div>
+
+          <div id="envio">
+          <ul>
+            <li><a href="link">ENVIO - 2ºANO</a></li>
+            <li><a href="link">ENVIO - 3ºANO</a></li>
+          </ul>
+        </div> -->
+
+
+
+
+  <!--  <div id="pdf1">
+        <a href="link" target="_blank">
+          PDF - 2ºANO D
+        </a>
+      </div>
+
+        <div id="pdf2">
+          <a href="link" target="_blank">
+          PDF - 3ºANOS
+          </a>
+        </div> 
+
+          <div id="envio1">
+            <a href="link" target="_blank">
+            ENVIO - 2ºD
+            </a>
+          </div> 
+
+            <div id="envio2">
+              <a href="link" target="_blank">
+              ENVIO - 3ºANOS
+              </a>
+            </div> 
+
+              <div id="bg-image"></div> -->

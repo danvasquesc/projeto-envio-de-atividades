@@ -1,13 +1,13 @@
 body {
-  background-color: black;
-  color: white;
+  background-color: #000;
+  color: #f8f0fb;
   font-family: "Abel", sans-serif;
   text-align: center;
   align-content: center;
 }
 
 #atencao {
-  background-color: red;
+  background-color: #6320ee;
   font-size: 1.5rem;
   padding: 0rem 2rem;
   border-radius: 0.3rem;
@@ -44,7 +44,7 @@ p {
 }
 
 #pdf1, #pdf2 {
-  background-color: blueviolet;
+  background-color: #8075ff;
   color: white;
   font-size: 0.9rem;
   text-decoration: none;
@@ -57,11 +57,10 @@ p {
   line-height: 2;
 
   transition: background-color 400ms
-
 }
 
 #envio1, #envio2 {
-  background-color: blueviolet;
+  background-color: #8075ff;
   color: white;
   font-size: 0.8rem;
   text-decoration: none;
@@ -73,90 +72,57 @@ p {
   margin: 0.5rem;
 
   transition: background-color 400ms
-
 }
 
 #pdf1:hover {
-    background-color: #11dbff;
+    background-color: #6320ee;
   }
 
 #pdf2:hover {
-    background-color: #11dbff;
+    background-color: #6320ee;
   }
 
 #envio1:hover {
-    background-color: #11dbff;
+    background-color: #6320ee;
   }
 
 #envio2:hover {
-    background-color: #11dbff;
+    background-color: #6320ee;
   }
 
+#bg-image {
+  background-image: url("https://images.pexels.com/photos/5088017/pexels-photo-5088017.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 
+  position: absolute;
+  inset: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  z-index: -1;
+}
 
+#atencao, h1, p, #pdf1, #pdf2, #envio1, #envio2 {
+  animation: appear 1s backwards;
+}
 
+#atencao {
+  animation-delay: 0.2s;
+}
 
- /* #pdf1 a {
-  background-color: rgb(8, 186, 186);
-  float: left; 
-  padding: 0.6rem 1.3rem; 
-  vertical-align: middle; 
-  color:white;
-  border-radius: 0.3rem; 
-  font-size: 1.3rem; 
-  text-decoration:none;
+h1 {
+  animation-delay: 0.4s;
+}
 
-  margin: 0rem 0.9rem;
+p {
+  animation-delay: 0.6s;
+}
 
-
-
+#pdf1 {
+  animation-delay: 0.4s;
 }
 
 #pdf2 {
-  background-color: rgb(8, 186, 186);
-  float: left; 
-  padding: 0.6rem 1.3rem; 
-  vertical-align: middle; 
-  color:white;
-  border-radius: 0.3rem; 
-  font-size: 1.3rem; 
-  text-decoration:none;
-
-  margin: 0rem 0.9rem;
-
-
+  animation-delay: 0.4s;
 }
 
-#envio1 {
-
-    background-color: rgb(8, 186, 186);
-  float: left; 
-  padding: 0.6rem 1.3rem; 
-  vertical-align: middle; 
-  color:white;
-  border-radius: 0.3rem; 
-  font-size: 1.3rem; 
-  text-decoration:none;
-
-  margin: 0rem 0.9rem;
-
-}
-
-#envio2 {
-
-  background-color: rgb(8, 186, 186);
-  float: left; 
-  padding: 0.6rem 1.3rem; 
-  vertical-align: middle; 
-  color:white;
-  border-radius: 0.3rem; 
-  font-size: 1.3rem; 
-  text-decoration:none;
-
-  margin: 0rem 0.9rem;
-
-} */
-
-#bg-image {
-
-}

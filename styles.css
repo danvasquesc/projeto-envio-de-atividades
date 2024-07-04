@@ -16,10 +16,10 @@ body {
 
   left: 50%;
 
-  animation: piscar 2.5s infinite; 
+  animation: blink 2.1s infinite; 
 }
 
-@keyframes piscar {
+@keyframes blink {
   0% {
     opacity: 1;
   }
@@ -76,19 +76,19 @@ p {
 
 #pdf1:hover {
     background-color: #6320ee;
-  }
+}
 
 #pdf2:hover {
     background-color: #6320ee;
-  }
+}
 
 #envio1:hover {
     background-color: #6320ee;
-  }
+}
 
 #envio2:hover {
     background-color: #6320ee;
-  }
+}
 
 #bg-image {
   background-image: url("https://images.pexels.com/photos/5088017/pexels-photo-5088017.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
@@ -102,27 +102,34 @@ p {
   z-index: -1;
 }
 
-#atencao, h1, p, #pdf1, #pdf2, #envio1, #envio2 {
+h1, p, #pdf1, #pdf2, #envio1, #envio2 {
   animation: appear 1s backwards;
 }
 
-#atencao {
-  animation-delay: 0.2s;
-}
-
 h1 {
-  animation-delay: 0.4s;
-}
-
-p {
   animation-delay: 0.6s;
 }
 
-#pdf1 {
-  animation-delay: 0.4s;
+p {
+  animation-delay: 0.9s;
 }
 
-#pdf2 {
-  animation-delay: 0.4s;
+#pdf1, #pdf2 {
+  animation-delay: 1.2s;
 }
 
+#envio1, #envio2 {
+  animation-delay: 1.6s;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+}
+
+@media (width < 40rem) {
+  html {
+    font-size: 70%;
+  }
+}

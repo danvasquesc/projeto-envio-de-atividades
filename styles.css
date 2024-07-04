@@ -7,14 +7,12 @@ body {
 }
 
 #atencao {
-  background-color: rgb(255, 0, 0);
-  color: white;
+  background-color: red;
   font-size: 1.5rem;
-
   padding: 0rem 2rem;
   border-radius: 0.3rem;
-  line-height: 1.5;
-  margin-bottom: 4.5rem;
+  line-height: 1.2;
+  margin-bottom: 3.5rem;
 
   left: 50%;
 
@@ -36,25 +34,128 @@ body {
 h1 {
   font-family: "Nunito Sans", sans-serif;
   font-size: 3rem;
-  line-height: 1;
-  margin-bottom: 2.5rem;
+  line-height: 0.9;
+  margin-bottom: 1.8rem;
 }
 
 p {
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
+  font-size: 1.3rem;
+  margin-bottom: 1.8rem;
 }
 
-a {
+#pdf1, #pdf2 {
   background-color: blueviolet;
   color: white;
+  font-size: 0.9rem;
   text-decoration: none;
 
+  margin-bottom: 1.8rem;
+  border-radius: 0.3rem;
+  padding: 1rem 2rem;
+
+  margin: 0.5rem;
+  line-height: 2;
+
+  transition: background-color 400ms
+
 }
 
-#envio {
+#envio1, #envio2 {
+  background-color: blueviolet;
+  color: white;
+  font-size: 0.8rem;
+  text-decoration: none;
+
+  margin-bottom: 1.8rem;
+  border-radius: 0.3rem;
+  padding: 1rem 2rem;
+
+  margin: 0.5rem;
+
+  transition: background-color 400ms
 
 }
+
+#pdf1:hover {
+    background-color: #11dbff;
+  }
+
+#pdf2:hover {
+    background-color: #11dbff;
+  }
+
+#envio1:hover {
+    background-color: #11dbff;
+  }
+
+#envio2:hover {
+    background-color: #11dbff;
+  }
+
+
+
+
+
+ /* #pdf1 a {
+  background-color: rgb(8, 186, 186);
+  float: left; 
+  padding: 0.6rem 1.3rem; 
+  vertical-align: middle; 
+  color:white;
+  border-radius: 0.3rem; 
+  font-size: 1.3rem; 
+  text-decoration:none;
+
+  margin: 0rem 0.9rem;
+
+
+
+}
+
+#pdf2 {
+  background-color: rgb(8, 186, 186);
+  float: left; 
+  padding: 0.6rem 1.3rem; 
+  vertical-align: middle; 
+  color:white;
+  border-radius: 0.3rem; 
+  font-size: 1.3rem; 
+  text-decoration:none;
+
+  margin: 0rem 0.9rem;
+
+
+}
+
+#envio1 {
+
+    background-color: rgb(8, 186, 186);
+  float: left; 
+  padding: 0.6rem 1.3rem; 
+  vertical-align: middle; 
+  color:white;
+  border-radius: 0.3rem; 
+  font-size: 1.3rem; 
+  text-decoration:none;
+
+  margin: 0rem 0.9rem;
+
+}
+
+#envio2 {
+
+  background-color: rgb(8, 186, 186);
+  float: left; 
+  padding: 0.6rem 1.3rem; 
+  vertical-align: middle; 
+  color:white;
+  border-radius: 0.3rem; 
+  font-size: 1.3rem; 
+  text-decoration:none;
+
+  margin: 0rem 0.9rem;
+
+} */
 
 #bg-image {
 

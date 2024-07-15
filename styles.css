@@ -1,113 +1,134 @@
 :root {
-    --corPrimaria: #6320ee;
-    --corSecundaria: #8075ff;
+  --corPrimaria: #6320ee;
+  --corSecundaria: #8075ff;
 
-    --fontePrimaria: "Abel", sans-serif;
-    --fonteSecundaria: "Nunito Sans", sans-serif;
+  --fontePrimaria: "Abel", sans-serif;
+  --fonteSecundaria: "Nunito Sans", sans-serif;
 }
 
 body {
-    background-color: #000;
-    color: #ffffff;
-    font-family: var(--fontePrimaria);
-    text-align: center;
-    align-content: center;
+  background-color: #000;
+  color: #ffffff;
+  font-family: var(--fontePrimaria);
+  text-align: center;
+  align-content: center;
+}
+
+#atencao {
+  background-color: var(--corPrimaria);
+  font-size: 1.5rem;
+  padding: 0rem 2rem;
+  border-radius: 0.3rem;
+  line-height: 1.2;
+  margin-bottom: 3.5rem;
+
+  left: 50%;
+
+  animation: blink 2.1s infinite; 
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
   }
-  
-  #atencao {
-    background-color: var(--corPrimaria);
-    font-size: 1.5rem;
-    padding: 0rem 2rem;
-    border-radius: 0.3rem;
-    line-height: 1.2;
-    margin-bottom: 3.5rem;
-  
-    left: 50%;
-  
-    animation: blink 2.1s infinite; 
-  }
-  
-  @keyframes blink {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0.5;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  
-  h1 {
-    font-family: var(--fonteSecundaria);
-    font-size: 3rem;
-    line-height: 0.9;
-    margin-bottom: 1.8rem;
-  }
-  
-  p {
-    font-size: 1.3rem;
-    margin-bottom: 1.8rem;
-  }
-  
-  #pdf1, #pdf2, #envio1, #envio2 {
-    background-color: var(--corSecundaria);
-    color: white;
-    font-size: 0.9rem;
-    text-decoration: none;
-  
-    margin-bottom: 1.8rem;
-    border-radius: 0.3rem;
-    padding: 1rem 2rem;
-  
-    margin: 0.5rem;
-    line-height: 2;
-  
-    transition: background-color 400ms
-  }
-  
-  
-  #pdf1:hover, #pdf2:hover, #envio1:hover, #envio2:hover {
-      background-color: var(--corPrimaria);
-  }
-  
-  #bg-image {
-    background-image: url("https://images.pexels.com/photos/5088017/pexels-photo-5088017.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
-  
-    position: absolute;
-    inset: 0;
-    background: center, no-repeat, cover;
+  50% {
     opacity: 0.5;
-    z-index: -1;
   }
-  
-  h1, p, #pdf1, #pdf2, #envio1, #envio2 {
-    animation: appear 1s backwards;
+  100% {
+    opacity: 1;
   }
-  
-  h1 {
-    animation-delay: 0.6s;
+}
+
+h1 {
+  font-family: var(--fonteSecundaria);
+  font-size: 3rem;
+  line-height: 0.9;
+  margin-bottom: 1.8rem;
+}
+
+p {
+  font-size: 1.3rem;
+  margin-bottom: 1.8rem;
+}
+
+#pdf1, #pdf2 {
+  background-color: var(--corSecundaria);
+  color: white;
+  font-size: 0.9rem;
+  text-decoration: none;
+
+  margin-bottom: 1.8rem;
+  border-radius: 0.3rem;
+  padding: 1rem 2rem;
+
+  margin: 0.5rem;
+  line-height: 2;
+
+  transition: background-color 400ms
+}
+
+#envio1, #envio2 {
+  background-color: var(--corSecundaria);
+  color: white;
+  font-size: 0.8rem;
+  text-decoration: none;
+
+  margin-bottom: 1.8rem;
+  border-radius: 0.3rem;
+  padding: 1rem 2rem;
+
+  margin: 0.5rem;
+
+  transition: background-color 400ms
+}
+
+#pdf1:hover, #pdf2:hover, #envio1:hover, #envio2:hover {
+    background-color: var(--corPrimaria);
+}
+
+#bg-image {
+  background-image: url("https://images.pexels.com/photos/5088017/pexels-photo-5088017.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+
+  position: absolute;
+  inset: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+h1, p, #pdf1, #pdf2, #envio1, #envio2 {
+  animation: appear 1s backwards;
+}
+
+h1 {
+  animation-delay: 0.6s;
+}
+
+p {
+  animation-delay: 0.9s;
+}
+
+#pdf1, #pdf2 {
+  animation-delay: 1.2s;
+}
+
+#envio1, #envio2 {
+  animation-delay: 1.6s;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
   }
-  
-  p {
-    animation-delay: 0.9s;
+}
+
+@media (width < 40rem) {
+  html {
+    font-size: 70%;
   }
-  
-  #pdf1, #pdf2 {
-    animation-delay: 1.2s;
-  }
-  
-  #envio1, #envio2 {
-    animation-delay: 1.6s;
-  }
-  
-  @keyframes appear {
-    0% {
-      opacity: 0;
-    }
-  }
-  
+}
   @media (width < 40rem) {
     html {
       font-size: 70%;

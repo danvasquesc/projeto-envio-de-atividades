@@ -1,6 +1,6 @@
 :root {
-  --corPrimaria: #185AE2;
-  --corSecundaria: #2CE1F9;
+  --corPrimaria: #1d3ede;
+  --corSecundaria: #01e6f8;
 
   --fontePrimaria: "Lato";
   --fonteSecundaria: "Open Sans";
@@ -25,7 +25,7 @@ body {
   line-height: 0;
   margin-bottom: 7rem;
 
-  animation: blink 2.8s infinite;
+  animation: blink 2s infinite;
 }
 
 @keyframes blink {
@@ -41,23 +41,27 @@ body {
 }
 
 
-
 h1 {
   font-size: 3rem;
   font-weight: 500;
 
-
   line-height: 1.3;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
+}
+
+span {
+  font-weight: bold
 }
 
 p {
   font-size: 1.3rem;
-  margin-bottom: 1.8rem;
+  margin-bottom: 5rem;
 }
 
-#pdf1, #pdf2 {
-  background-color: var(--corSecundaria);
+.arquivo1, .arquivo2 {
+  background: -webkit-linear-gradient(left, 
+  #00a6ff, #01e6f8);
+  background-color: transparent;
   color: white;
   font-size: 0.9rem;
   text-decoration: none;
@@ -69,139 +73,13 @@ p {
   margin: 0.5rem;
   line-height: 2;
 
-  transition: background-color 400ms
-}
+  transition: background-color 500ms;
+} 
 
-#envio1, #envio2 {
-  background-color: var(--corSecundaria);
-  color: white;
-  font-size: 0.8rem;
-  text-decoration: none;
-
-  margin-bottom: 1.8rem;
-  border-radius: 0.3rem;
-  padding: 1rem 2rem;
-
-  margin: 0.5rem;
-
-  transition: background-color 400ms
-}
-
-#pdf1:hover, #pdf2:hover, #envio1:hover, #envio2:hover {
-    background-color: var(--corPrimaria);
-}
-
-/*#bg-image {
-  background-image: url("https://images.pexels.com/photos/5088017/pexels-photo-5088017.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
-
-  position: absolute;
-  inset: 0;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 0.5;
-  z-index: -1;
-} */
-
-h1, p, #pdf1, #pdf2, #envio1, #envio2 {
-  animation: appear 1s backwards;
-}
-
-h1 {
-  animation-delay: 0.6s;
-}
-
-p {
-  animation-delay: 0.9s;
-}
-
-#pdf1, #pdf2 {
-  animation-delay: 1.2s;
-}
-
-#envio1, #envio2 {
-  animation-delay: 1.6s;
-}
-
-@keyframes appear {
-  0% {
-    opacity: 0;
-  }
-}
-
-@media (width < 40rem) {
-  html {
-    font-size: 70%;
-  }
-}
-  @media (width < 40rem) {
-    html {
-      font-size: 70%;
-    }
-  }
-
-
-
-
-
-
-
-
-/* :root {
-  --corPrimaria: #6320ee;
-  --corSecundaria: #8075ff;
-
-  --fontePrimaria: "Abel", sans-serif;
-  --fonteSecundaria: "Nunito Sans", sans-serif;
-}
-
-body {
-  background-color: #000;
-  color: #ffffff;
-  font-family: var(--fontePrimaria);
-  text-align: center;
-  align-content: center;
-}
-
-#atencao {
-  background-color: var(--corPrimaria);
-  font-size: 1.5rem;
-  padding: 0rem 2rem;
-  border-radius: 0.3rem;
-  line-height: 1.2;
-  margin-bottom: 3.5rem;
-
-  left: 50%;
-
-  animation: blink 2.1s infinite; 
-}
-
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-h1 {
-  font-family: var(--fonteSecundaria);
-  font-size: 3rem;
-  line-height: 0.9;
-  margin-bottom: 1.8rem;
-}
-
-p {
-  font-size: 1.3rem;
-  margin-bottom: 1.8rem;
-}
-
-#pdf1, #pdf2 {
-  background-color: var(--corSecundaria);
+.envio1, .envio2 {
+  background: -webkit-linear-gradient(left, 
+  #00a6ff, #01e6f8);
+  background-color: transparent;
   color: white;
   font-size: 0.9rem;
   text-decoration: none;
@@ -211,32 +89,18 @@ p {
   padding: 1rem 2rem;
 
   margin: 0.5rem;
-  line-height: 2;
+  line-height: 8;
 
-  transition: background-color 400ms
+  transition: background-color 500ms;
 }
 
-#envio1, #envio2 {
-  background-color: var(--corSecundaria);
-  color: white;
-  font-size: 0.8rem;
-  text-decoration: none;
-
-  margin-bottom: 1.8rem;
-  border-radius: 0.3rem;
-  padding: 1rem 2rem;
-
-  margin: 0.5rem;
-
-  transition: background-color 400ms
-}
-
-#pdf1:hover, #pdf2:hover, #envio1:hover, #envio2:hover {
-    background-color: var(--corPrimaria);
+.arquivo1:hover, .arquivo2:hover, .envio1:hover, .envio2:hover {
+  background: -webkit-linear-gradient(left, 
+  #031fae, #09deed);
 }
 
 #bg-image {
-  background-image: url("https://images.pexels.com/photos/5088017/pexels-photo-5088017.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-image: url("https://img.freepik.com/fotos-gratis/formas-de-papel-psicodelico-com-espaco-de-copia_23-2149378308.jpg?t=st=1722117073~exp=1722120673~hmac=d9994ba484dc99026b5f7a3a7a3b572d227a23c52de1be7e521616d51ad56df4&w=826");
 
   position: absolute;
   inset: 0;
@@ -247,11 +111,11 @@ p {
   z-index: -1;
 }
 
-h1, p, #pdf1, #pdf2, #envio1, #envio2 {
+h1, span, p, .arquivo1, .arquivo2, .envio1, .envio2 {
   animation: appear 1s backwards;
 }
 
-h1 {
+h1, span {
   animation-delay: 0.6s;
 }
 
@@ -259,11 +123,11 @@ p {
   animation-delay: 0.9s;
 }
 
-#pdf1, #pdf2 {
+.arquivo1, .arquivo2 {
   animation-delay: 1.2s;
 }
 
-#envio1, #envio2 {
+.envio1, .envio2  {
   animation-delay: 1.6s;
 }
 
@@ -278,9 +142,3 @@ p {
     font-size: 70%;
   }
 }
-  @media (width < 40rem) {
-    html {
-      font-size: 70%;
-    }
-  }
-*/

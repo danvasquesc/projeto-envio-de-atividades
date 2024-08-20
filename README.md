@@ -26,7 +26,7 @@ A proposta é que, assim que tiver atividade disponível para envio, será infor
 
 ### 📌 Visualizar o projeto:
 
-[Clique aqui!](https://danvasquesc.github.io/landingpage-envio-de-atividades/)
+[Clique aqui!](https://danvasquesc.github.io/projeto-envio-de-atividades/)
 
 ---
 

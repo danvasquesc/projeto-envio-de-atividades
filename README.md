@@ -2,9 +2,9 @@
 
 ### 📌 Proposta do projeto:
 
-<img src="./src/image/design.png">
+<img src="./src/image/template.png">
 
-✨ Design criado por mim na plataforma Canva Pro - [Clique aqui para acessar!](https://www.canva.com/design/DAGNav-qIsI/t3KjfIvGZyjHNVzU-8JY7Q/edit?utm_content=DAGNav-qIsI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+✨ Design criado por mim na plataforma Canva Pro - [Clique aqui para acessar!](https://www.canva.com/design/DAGOazLU00I/mreLdF0DA6xNvEqz6jR10A/edit?utm_content=DAGOazLU00I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 <br>
 Sou professor estadual e todo fim de bimestre me encontrava extremamente desorganizado com as atividades que os alunos me enviavam, como: trabalhos, compensações e recuperações. A partir disso, fui em busca de sites que eu pudessem centralizar as atividades de uma forma intuitiva para os alunos, visto que muitos não compreendem a informática. 

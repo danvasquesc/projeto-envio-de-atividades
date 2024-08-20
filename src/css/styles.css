@@ -21,7 +21,7 @@ body {
   text-align: center;
   align-content: center;
   font-size: 0.75rem;
-  margin: 1rem 2rem;
+  margin: 10px 16px;
   border: 0.9rem solid transparent;
   border-radius: 0.3rem;
 }
@@ -42,19 +42,20 @@ h1 {
   flex-direction: column;
   justify-content: space-evenly;
   min-height: 100vh;
+  margin: 10px 16px;
 }
 
 .informacoes h1 {
   background-color: chartreuse;
-  width: 50%;
+  width: 49%;
   font-size: 2.4rem;
-  margin-bottom: 2.5rem;
-  letter-spacing: 0.2rem;
+  margin-bottom: 40px;
+  letter-spacing: 6px;
 }
 
 .informacoes .descricao {
   background-color: purple;
-  width: 50%;
+  width: 49%;
   font-size: 1.3rem;
   line-height: 2rem;
   margin-bottom: 2.5rem;

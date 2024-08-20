@@ -2,6 +2,8 @@
 
 ### 📌 Proposta do projeto:
 
+<img src="./src/image/design.png">
+
 Sou professor estadual e todo fim de bimestre me encontrava extremamente desorganizado com as atividades que os alunos me enviavam, como: trabalhos, compensações e recuperações. A partir disso, fui em busca de sites que eu pudessem centralizar as atividades de uma forma intuitiva para os alunos, visto que muitos não compreendem a informática. 
 
 No caminho desta busca me deparei com sites pagos, e os que eram gratuitos, que é o que me interessava, possuiam muitas informações, necessidade de cadastro por parte dos alunos e nada simples. Com isso, decidi criar uma página exclusiva para meus alunos, bem simples e intuitiva, sem muitas informações e sendo guiados pelos botões. 

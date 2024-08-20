@@ -1,0 +1,61 @@
+body {
+  color: #e1efff;
+  font-family: "Nunito Sans", sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+
+  background-color: aqua;
+}
+
+.bg-image {
+  background-color: brown;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.topo {
+  background-color: #2584f0;
+  text-align: center;
+  align-content: center;
+  font-size: 0.75rem;
+  margin: 1rem 2rem;
+  border: 0.9rem solid transparent;
+  border-radius: 0.3rem;
+}
+
+.informacoes {
+  color: #000000;
+}
+
+h1 {
+  font-family: "Londrina Solid", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.conteudo {
+  background-color: salmon;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 100vh;
+}
+
+.informacoes h1 {
+  background-color: chartreuse;
+  width: 50%;
+  font-size: 2.4rem;
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.informacoes .descricao {
+  background-color: purple;
+  width: 50%;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin-bottom: 2.5rem;
+}

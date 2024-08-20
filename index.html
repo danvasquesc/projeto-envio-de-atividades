@@ -1,57 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Atividades Escolares</title>
-  <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Envio de Atividades - Profº Dan</title>
 
-<!-- fontes --> 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
 
-</head>
-
-<body>
-  <div id="bg-image"></div>
-
-    <div class="atencao">
-      <h5>
-        NENHUMA ATIVIDADE LIBERADA AINDA - AGUARDE
-      </h5>
-    </div>
-
-      <div class="central">
-        <h1>
-          Plataforma para <span>envio</span> de atividades,
-          trabalhos e recuperações.
-        </h1>
-          <p>
-            Baixe o PDF da sua turma, responda a atividade e<br>
-            envie selecionando sua turma abaixo 
-          </p>
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="bg-image">
+        <img src="./src/image/fundo.png" alt="Fundo azul claro" />
       </div>
 
-        <div class="arquivos">
-          <a class="arquivo1" href="link" target="_blank">
-            PDF - 2ºANO
-          </a>
-            <a class="arquivo2" href="link" target="_blank">
-              PDF - 3ºANO
-            </a>
-        </div>
+      <div class="topo">
+        <h5>NENHUMA ATIVIDADE LIBERADA AINDA - AGUARDE</h5>
+      </div>
 
-          
+      <div class="conteudo">
+        <div class="informacoes">
+          <h1>
+            Plataforma para envio de atividades, trabalhos e recuperações.
+          </h1>
 
-          <div class="envio">
-            <a class="envio1" href="link" target="_blank">
-            PDF - 2ºANO
-            </a>
-              <a class="envio2" href="link" target="_blank">
-              PDF - 3ºANO
-              </a>
+          <p class="descricao">
+            Baixe o PDF da sua turma, responda a atividade e<br />
+            envie selecionando sua turma abaixo
+          </p>
+
+          <div class="botoes-arquivo">
+            <button class="botao">PDF - 2ºANO</button>
+            <button class="botao">PDF - 3ºANO</button>
           </div>
 
-</body>
+          <div class="botoes-envio">
+            <button class="botao">ENVIO - 2ºANO</button>
+            <button class="botao">ENVIO - 2ºANO</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

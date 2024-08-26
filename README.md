@@ -16,19 +16,16 @@ Como estou estudando e aprendendo a utilizar as ferramentas do front-end, decidi
 <img src="./src/image/template.png">
 
 O template foi criado na plataforma Canva, A criação deste modelo visual é essencial para assegurar um design moderno, acessível e intuitivo, que facilita a navegação dos alunos. Ele destaca informações importantes, como a disponibilidade de atividades, e organiza as ações principais através de botões coloridos e bem posicionados. A imagem central de uma pilha de livros reforça o tema educacional, enquanto o design prioriza a responsividade e a experiência do usuário. Utilizar a criação do design antes de partir para o código, auxilia a entender como cada propriedade funcionará, como estruturar o HTML e organizar fontes e cores. <br>
-Disponibilizei o acesso ao meus templates desse projeto, para consultar quaisquer necessidades que possam surgir. 
+Disponibilizei o acesso ao meus templates desse projeto para consulta. 
 [Clique aqui para acessar!][6]
 
+<br>
 
-
-
-
-
-## 📌 Como usuário deve usar 
+## 📌 Como o usuário deve usar 
   1. Imagine que você é aluno(a) do 2º ano do Ensino Médio. Você acessa a página, via link que disponibilizei em aula, e na `class="topo"` está escrito "Atividade de  Recuperação - envio até 20/09".
   2. Você irá clicar no botão `PDF - 2ºANO`, que baixará automaticamente o arquivo da atividade solicitada, em PDF, no seu dispositivo.
   3. A atividade solicitada é que você produza um texto sobre "A importância do trabalho na vida social". No PDF constará as orientações para produção da atividade, os textos que usamos em aula e as demais informações necessárias para realização da mesma.
-  4.  Após a realização da atividade, e a mesma salva em seu dispositivo, você irá clicar no botão `ENVIO - 2ºANO` que abrirá, em outra guia, o formulário do Google Forms (ou qualquer outro drive e afins que achar melhor), para que você faça upload da atividade.
+  4.  Após a realização da sua atividade, com ela salva em seu dispositivo, você irá clicar no botão `ENVIO - 2ºANO` que abrirá, em outra guia, o formulário do Google Forms (ou qualquer outro drive e afins que achar melhor), para que você faça upload da atividade.
 
  ## 📌 Como o desenvolvedor deve usar 
    1. Após a geração dos códigos, adaptados para sua necessidade, você anexará o link do arquivo em PDF no `<a href="#linkDoPDF" download>`.
@@ -38,63 +35,24 @@ Disponibilizei o acesso ao meus templates desse projeto, para consultar quaisque
 
 <br>
 
- ## 📌 Linguagens utilizadas:
+ ## 📌 Linguagens utilizadas
 
 ![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
 ![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JS](https://img.shields.io/badge/-JavaScript-fffd09?style=for-the-badge&logo=javascript&logoColor=black)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 📌 Proposta do projeto:
-
-<img src="./src/image/template.png">
-
-:sparkles: Design criado por mim na plataforma Canva Pro - [Clique aqui para acessar!](https://www.canva.com/design/DAGOazLU00I/mreLdF0DA6xNvEqz6jR10A/edit?utm_content=DAGOazLU00I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
 <br>
-Sou professor estadual e todo fim de bimestre me encontrava extremamente desorganizado com as atividades que os alunos me enviavam, como: trabalhos, compensações e recuperações. A partir disso, fui em busca de sites que eu pudessem centralizar as atividades de uma forma intuitiva para os alunos, visto que muitos não compreendem a informática. 
 
-No caminho desta busca me deparei com sites pagos, e os que eram gratuitos, que é o que me interessava, possuiam muitas informações, necessidade de cadastro por parte dos alunos e nada simples. Com isso, decidi criar uma página exclusiva para meus alunos, bem simples e intuitiva, sem muitas informações e sendo guiados pelos botões. 
+## 📌 Editor de código utilizado
 
-A proposta é que, assim que tiver atividade disponível para envio, será informado através da div 'atenção', que colocarei qual atividade e data estará disponível para envio. 
+![VS Code][7]
 
 <br>
 
-### 📌 Linguagens utilizadas:
+## 📌 Visualizar o projeto
+A página está hospedada no GitHub Pages, que é um serviço que permite hospedar sites estáticos diretamente a partir de um repositório GitHub. É ideal para criar e publicar sites pessoais, blogs e portfólios.
 
-![HTML][2]
-![CSS][3]
-![JS][4]
-
-<br>
-
-### 📌 Editor utilizado:
-
-![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge)
-
-<br>
-
-### 📌 Visualizar o projeto:
-
-[Clique aqui!][5]
+[Clique aqui para visualizar!][5]
 
 
 
@@ -104,8 +62,8 @@ A proposta é que, assim que tiver atividade disponível para envio, será infor
 [4]: https://img.shields.io/badge/-JavaScript-fffd09?style=for-the-badge&logo=javascript&logoColor=black
 [5]: https://danvasquesc.github.io/projeto-envio-de-atividades/
 [6]: https://www.canva.com/design/DAGOazLU00I/mreLdF0DA6xNvEqz6jR10A/edit?utm_content=DAGOazLU00I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-
+[7]: https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge
 
 ---
 
-### Feito por [Dan!](https://github.com/danvasquesc) ✨
+### Feito por [Dan!](https://github.com/danvasquesc) :sparkles: 

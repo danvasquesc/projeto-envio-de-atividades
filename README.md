@@ -27,15 +27,17 @@ Disponibilizei o acesso ao meus templates desse projeto para consulta.
   3. A atividade solicitada é que você produza um texto sobre "A importância do trabalho na vida social". No PDF constará as orientações para produção da atividade, os textos que usamos em aula e as demais informações necessárias para realização da mesma.
   4.  Após a realização da sua atividade, com ela salva em seu dispositivo, você irá clicar no botão `ENVIO - 2ºANO` que abrirá, em outra guia, o formulário do Google Forms (ou qualquer outro drive e afins que achar melhor), para que você faça upload da atividade.
 
- ## 📌 Como o desenvolvedor deve usar 
-   1. Após a geração dos códigos, adaptados para sua necessidade, você anexará o link do arquivo em PDF no `<a href="#linkDoPDF" download>`.
-   2. E para o envio da atividade, basta criar um formulário no [Google Forms][1].
-   3. Com o link do formulário pronto, basta anexar no `<a href="#linkParaEnvio">`.
-   4. Não esqueça de alterar a descrição da `<div class="topo">`, adicionando que tipo de atividade está aberta para envio e até que data.
+<br>
+
+## 📌 Como o desenvolvedor deve usar 
+  1. Após a geração dos códigos, adaptados para sua necessidade, você anexará o link do arquivo em PDF no `<a href="#linkDoPDF" download>`.
+  2. E para o envio da atividade, basta criar um formulário no [Google Forms][1].
+  3. Com o link do formulário pronto, basta anexar no `<a href="#linkParaEnvio">`.
+  4. Não esqueça de alterar a descrição da `<div class="topo">`, adicionando que tipo de atividade está aberta para envio e até que data.
 
 <br>
 
- ## 📌 Linguagens utilizadas
+## 📌 Linguagens utilizadas
 
 ![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
 ![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -54,6 +56,11 @@ A página está hospedada no GitHub Pages, que é um serviço que permite hosped
 
 [Clique aqui para visualizar!][5]
 
+<br>
+
+## 📌 Considerações Finais
+Este projeto foi desenvolvido com foco na simplicidade e acessibilidade, para garantir que todos os alunos, independentemente de suas habilidades com tecnologia, possam utilizar a plataforma de maneira eficaz. Documentar este projeto é um passo importante para que outros professores ou desenvolvedores possam entender sua utilidade, adaptar a solução para suas próprias necessidades, e também para que eu possa manter e evoluir essa página no futuro.
+Aceito contribuições no projeto!
 
 
 [1]: https://workspace.google.com/intl/pt-BR/lp/forms/?utm_source=google&utm_medium=cpc&utm_campaign=latam-BR-all-es-dr-BKWS-all-all-trial-e-dr-1707806-LUAC0020236&utm_content=text-ad-none-any-DEV_c-CRE_692948977897-ADGP_Hybrid%20%7C%20BKWS%20-%20EXA%20%7C%20Txt-Business-Forms-KWID_43700079700010382-kwd-2281725301160&utm_term=KW_formulario%20online%20google%20trabalho-ST_formulario%20online%20google%20trabalho&gad_source=1&gclid=Cj0KCQjwz7C2BhDkARIsAA_SZKY9p0p6X45-gGOxep8jvqADlPC_Tly3S8O6LftnZuwRttdoqyMXYY4aAlbpEALw_wcB&gclsrc=aw.ds

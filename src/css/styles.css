@@ -7,6 +7,7 @@ body {
   background-color: aqua;
 }
 
+/* imagem de fundo */
 .bg-image {
   background-color: brown;
   position: fixed;
@@ -16,18 +17,15 @@ body {
   z-index: -1;
 }
 
+/* informacoes */
 .topo {
   background-color: #2584f0;
   text-align: center;
   align-content: center;
   font-size: 0.75rem;
-  margin: 10px 16px;
-  border: 0.9rem solid transparent;
-  border-radius: 0.3rem;
-}
-
-.informacoes {
-  color: #000000;
+  margin: 0.6rem 1rem;
+  border: 14px solid transparent;
+  border-radius: 7px;
 }
 
 h1 {
@@ -37,26 +35,77 @@ h1 {
 }
 
 .conteudo {
+  color: #000000;
   background-color: salmon;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   min-height: 100vh;
-  margin: 10px 16px;
+  margin: 0.6rem 1rem;
 }
 
 .informacoes h1 {
   background-color: chartreuse;
   width: 49%;
   font-size: 2.4rem;
-  margin-bottom: 40px;
-  letter-spacing: 6px;
+  margin-bottom: 2.4rem;
+  letter-spacing: 0.2rem;
 }
 
 .informacoes .descricao {
   background-color: purple;
   width: 49%;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 2rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.4rem;
 }
+
+/* botoes */
+
+.botoes-container {
+  border: none;  
+  outline: none;
+}
+
+
+.botoes-arquivo, .botoes-envio {
+  background-color: cadetblue;
+  text-decoration: none;
+  width: 49%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 5rem;
+  margin-bottom: 1rem;
+}
+
+ .botoes-arquivo .botao {
+
+
+    background-color: red;
+    color: white;
+    font-size: 0.9rem;
+    text-decoration: none;
+  
+    margin-bottom: 1.8rem;
+    border-radius: 0.3rem;
+    padding: 1rem 2rem;
+  
+    margin: 0.5rem;
+    line-height: 2;
+  }
+
+
+  /*color: #FFFFFF;
+  font-size: 1.2rem;
+  text-align: center;
+
+  margin: 1rem 0rem;
+  border: 25px solid transparent;
+  border-radius: 7px;
+  padding: 0rem 2rem; */
+
+
+
+
+
+

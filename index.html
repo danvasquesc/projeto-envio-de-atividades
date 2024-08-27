@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Envio de Atividades - Profº Dan</title>
 
+    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,13 +13,14 @@
       rel="stylesheet"
     />
 
+    <!-- css -->
     <link rel="stylesheet" href="./src/css/reset.css" />
     <link rel="stylesheet" href="./src/css/styles.css" />
   </head>
   <body>
     <main>
       <div class="bg-image">
-        <img src="./src/image/fundo.png" alt="Fundo azul claro" />
+        <img src="./src/image/bg-image.png" alt="Fundo azul claro" />
       </div>
 
       <div class="topo">
@@ -36,14 +38,24 @@
             envie selecionando sua turma abaixo
           </p>
 
-          <div class="botoes-arquivo">
-            <button class="botao" target="_blank">PDF - 2ºANO</button>
-            <button class="botao" target="_blank">PDF - 3ºANO</button>
-          </div>
+          <div class="botoes-container">
+            <div class="botoes-arquivo">
+              <a href="#linkDoPDF" download
+                ><button class="botao">PDF - 2ºANO</button></a
+              >
+              <a href="#linkDoPDF" download
+                ><button class="botao">PDF - 3ºANO</button></a
+              >
+            </div>
 
-          <div class="botoes-envio">
-            <button class="botao" target="_blank">ENVIO - 2ºANO</button>
-            <button class="botao" target="_blank">ENVIO - 2ºANO</button>
+            <div class="botoes-envio">
+              <a href="#linkParaEnvio" target="_blank"
+                ><button class="botao">ENVIO - 2ºANO</button></a
+              >
+              <a href="#linkParaEnvio" target="_blank"
+                ><button class="botao" target="_blank">ENVIO - 3ºANO</button></a
+              >
+            </div>
           </div>
         </div>
       </div>

@@ -1,24 +1,73 @@
+:root {
+  --cor01: #e1efff;
+  --cor02: #2584f0;
+  --cor03: #f66b1d;
+}
+
 body {
-  color: #e1efff;
   font-family: "Nunito Sans", sans-serif;
+  background-color: var(--cor01);
   max-width: 1280px;
   margin: 0 auto;
+  justify-content: center;
 
+  margin: 0.6rem 1rem;
+}
+
+/* main {
+  margin: 1.2rem 3.3rem;
+  
+} */
+
+.status {
+  background-color: var(--cor02);
+  color: var(--cor01);
+  text-align: center;
+  padding: 0.6rem;
+  font-size: 0.8rem;
+  border-radius: 8px;
+}
+
+.conteudo {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 100vh;
+}
+
+.conteudo h1 {
+  background-color: chartreuse;
+  font-size: 2.3rem;
+  font-family: "Londrina Solid", sans-serif;
+  font-weight: 400;
+  height: 10rem;
+  line-height: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.conteudo p {
+  background-color: #071cfa;
+  line-height: 1.3rem;
+  font-size: 1rem;
+}
+
+.botoes-container {
+display: flex;
+
+}
+
+.botao {
   background-color: aqua;
+
+
 }
 
-/* imagem de fundo */
-.bg-image {
-  background-color: brown;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: -1;
-}
+/*
 
-/* informacoes */
-.topo {
+
+/* informacoes 
+.status { OK
   background-color: #2584f0;
   text-align: center;
   align-content: center;
@@ -60,7 +109,7 @@ h1 {
   margin-bottom: 2.4rem;
 }
 
-/* botoes */
+/* botoes 
 
 .botoes-container {
   border: none;  
@@ -103,9 +152,3 @@ h1 {
   border: 25px solid transparent;
   border-radius: 7px;
   padding: 0rem 2rem; */
-
-
-
-
-
-

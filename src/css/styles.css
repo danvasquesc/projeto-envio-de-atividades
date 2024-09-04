@@ -4,151 +4,136 @@
   --cor03: #f66b1d;
 }
 
-body {
-  font-family: "Nunito Sans", sans-serif;
-  background-color: var(--cor01);
-  max-width: 1280px;
-  margin: 0 auto;
-  justify-content: center;
-
-  margin: 0.6rem 1rem;
+@font-face {
+  font-family: "Baloo";
+  src: url(../fonts/Baloo-Regular.ttf);
 }
 
-/* main {
-  margin: 1.2rem 3.3rem;
-  
-} */
+@font-face {
+  font-family: "NunitoSans";
+  src: url(../fonts/NunitoSans-Regular.ttf);
+}
 
+body {
+  background-color: var(--cor01);
+  font-family: "NunitoSans", sans-serif;
+  max-width: 1920px;
+  margin: 1rem 2.5rem;
+}
+
+/* Barra de Status */
 .status {
   background-color: var(--cor02);
-  color: var(--cor01);
-  text-align: center;
-  padding: 0.6rem;
+  color: #ffffff;
   font-size: 0.8rem;
+  text-align: center;
+
+  padding: 0.8rem;
   border-radius: 8px;
+
+  margin-bottom: 4rem;
+
+  animation: blink 1.3s infinite;
 }
 
-.conteudo {
-  width: 49%;
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Conteudo principal */
+.content {
+  width: 60%;
+}
+
+.content h1 {
+  font-size: 2.3rem;
+  font-family: "Baloo";
+  font-weight: 400;
+
+  margin-bottom: 2.9rem;
+  line-height: 1.2;
+}
+
+.content p {
+  font-size: 1.3rem;
+
+  margin-bottom: 2.9rem;
+}
+
+/* Botões */
+.container-button {
+  font-weight: bold;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  min-height: 100vh;
+  gap: 1rem;
 }
 
-.conteudo h1 {
-  background-color: chartreuse;
-  font-size: 2.3rem;
-  font-family: "Londrina Solid", sans-serif;
-  font-weight: 400;
-  height: 10rem;
-  line-height: 2rem;
-  letter-spacing: 0.2rem;
-}
-
-.conteudo p {
-  background-color: #071cfa;
-  line-height: 1.3rem;
+.container-button a {
+  background-color: var(--cor03);
+  color: #ffffff;
   font-size: 1rem;
-}
-
-.botoes-container {
-display: flex;
-
-}
-
-.botao {
-  background-color: aqua;
-
-
-}
-
-/*
-
-
-/* informacoes 
-.status { OK
-  background-color: #2584f0;
+  letter-spacing: 0.2rem;
+  display: flex;
+  justify-content: center;
   text-align: center;
-  align-content: center;
-  font-size: 0.75rem;
-  margin: 0.6rem 1rem;
-  border: 14px solid transparent;
-  border-radius: 7px;
+
+  width: 49%;
+  height: auto;
+  padding: 1rem 3rem;
+  border-radius: 0.5rem;
+
+  transition: background-color 400ms;
+}
+
+.container-button a:hover {
+  background-color: #ff3700;
+}
+
+.button-upload,
+.button-submit {
+  display: flex;
+  gap: 2rem;
+}
+
+/* Efeito de aparecer ao carregar página */
+.status,
+h1,
+p,
+.button-upload,
+.button-submit {
+  animation: appear 1s backwards;
+}
+
+.status {
+  animation-delay: 0.2s;
 }
 
 h1 {
-  font-family: "Londrina Solid", sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  animation-delay: 0.5s;
 }
 
-.conteudo {
-  color: #000000;
-  background-color: salmon;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  min-height: 100vh;
-  margin: 0.6rem 1rem;
+p {
+  animation-delay: 0.8s;
 }
 
-.informacoes h1 {
-  background-color: chartreuse;
-  width: 49%;
-  font-size: 2.4rem;
-  margin-bottom: 2.4rem;
-  letter-spacing: 0.2rem;
+.button-upload {
+  animation-delay: 1.2s;
 }
 
-.informacoes .descricao {
-  background-color: purple;
-  width: 49%;
-  font-size: 1.2rem;
-  line-height: 2rem;
-  margin-bottom: 2.4rem;
+.button-submit {
+  animation-delay: 1.5s;
 }
 
-/* botoes 
-
-.botoes-container {
-  border: none;  
-  outline: none;
-}
-
-
-.botoes-arquivo, .botoes-envio {
-  background-color: cadetblue;
-  text-decoration: none;
-  width: 49%;
-  display: flex;
-  justify-content: flex-start;
-  gap: 5rem;
-  margin-bottom: 1rem;
-}
-
- .botoes-arquivo .botao {
-
-
-    background-color: red;
-    color: white;
-    font-size: 0.9rem;
-    text-decoration: none;
-  
-    margin-bottom: 1.8rem;
-    border-radius: 0.3rem;
-    padding: 1rem 2rem;
-  
-    margin: 0.5rem;
-    line-height: 2;
+@keyframes appear {
+  0% {
+    opacity: 0;
   }
-
-
-  /*color: #FFFFFF;
-  font-size: 1.2rem;
-  text-align: center;
-
-  margin: 1rem 0rem;
-  border: 25px solid transparent;
-  border-radius: 7px;
-  padding: 0rem 2rem; */
+}

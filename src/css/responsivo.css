@@ -1,0 +1,5 @@
+@media (width < 40rem) {
+  html {
+    font-size: 80%;
+  }
+}

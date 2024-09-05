@@ -27,25 +27,9 @@ body {
   color: #ffffff;
   font-size: 0.8rem;
   text-align: center;
-
   padding: 0.8rem;
   border-radius: 8px;
-
   margin-bottom: 4rem;
-
-  animation: blink 1.3s infinite;
-}
-
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.8;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 
 /* Conteudo principal */
@@ -57,14 +41,12 @@ body {
   font-size: 2.3rem;
   font-family: "Baloo";
   font-weight: 400;
-
   margin-bottom: 2.9rem;
   line-height: 1.2;
 }
 
 .content p {
   font-size: 1.3rem;
-
   margin-bottom: 2.9rem;
 }
 
@@ -84,7 +66,6 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-
   width: 49%;
   height: auto;
   padding: 1rem 3rem;

@@ -38,15 +38,13 @@ Devido a isso, optei por não utilizar a imagem, podendo futuramente, com novos 
 <br>
 
 ## 📌 Como o desenvolvedor pode usar 
-  1. Após a geração dos códigos, adaptados para sua necessidade, você anexará o link do arquivo em PDF no `<a href="#linkDoPDF" download>`.
-
-  2. Faça download dos arquivos deste repositório, na sua máquina, clicando no ícone verde `<> Code` e depois em `Download ZIP`.
-  3. No seu Explorador de Arquivos, crie uma pasta principal para o projeto, mova os arquivos para essa pasta e extraia-os com um compactador de zip.
-  4. Acesse o VS Code e abra essa pasta principal no editor.
-  5. Na `class="button-upload"`, altere as tags `<a href="#"` adicionando os links, em PDF, das atividades de cada turma. Se necessário, altere também as turmas.
-  6. Na `class="button-submit"`, altere as tags `<a href="#"` adicionando os links do Google Forms que você criou para recebimento das atividades de cada turma, ou qualquer outro drive que preferir. Se necessário, altere também as turmas.
-  7. Altere a descrição da `class="status"`, adicionando que tipo de atividade está aberta para envio e a data limite.
-  8. Salve o projeto, poste em seu repositório e através do GitHub Pages, divulgue o link da hospedagem para seus alunos. 
+  1. Faça download dos arquivos deste repositório, na sua máquina, clicando no ícone verde `<> Code` e depois em `Download ZIP`.
+  2. No seu Explorador de Arquivos, crie uma pasta principal para o projeto, mova os arquivos para essa pasta e extraia-os com um compactador de zip.
+  3. Acesse o VS Code e abra essa pasta principal no editor.
+  4. Na `class="button-upload"`, altere as tags `<a href="#"` adicionando os links, em PDF, das atividades de cada turma. Se necessário, altere também as turmas.
+  5. Na `class="button-submit"`, altere as tags `<a href="#"` adicionando os links do Google Forms que você criou para recebimento das atividades de cada turma, ou qualquer outro drive que preferir. Se necessário, altere também as turmas.
+  6. Altere a descrição da `class="status"`, adicionando que tipo de atividade está aberta para envio e a data limite.
+  7. Salve o projeto, poste em seu repositório e através do GitHub Pages, divulgue o link da hospedagem para seus alunos. 
      
 <br>
 

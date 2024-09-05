@@ -25,7 +25,7 @@ Disponibilizei o acesso ao meus templates desse projeto para consulta.
 
 ## 📌 Dificuldades encontradas e adendos importantes
 Com o decorrer da evolução do projeto, passei dificuldades com a integração da imagem dos livros na página, deixando alinhada e em contexto com os conteúdos. Utilizei documentações, tutoriais e vídeos para auxiliar na resolução desse problema. Testei diversas formas diferentes de imagem, alterando suas dimensões e suas propriedades no CSS, e infelizmente sem êxito referente a seguir o design criado e, até pessoalmente, em uma estética que me agradace e fosse responsiva. 
-Devido a isso, optei por não utilizar a imagem podendo, futuramente, com novos conhecimentos, retornar à esse projeto e melhora-lo.
+Devido a isso, optei por não utilizar a imagem, podendo futuramente, com novos conhecimentos, retornar à esse projeto e melhora-lo.
 
 <br>
 

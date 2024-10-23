@@ -12,6 +12,15 @@ Como estou estudando e aprendendo a utilizar as ferramentas do front-end, decidi
 
 <br>
 
+## 📌 Ferramentas utilizadas
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Vscode](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
+
+<br>
+
 ## 📌 Design do Template
 <img src="./src/image/template-canva.png">
 
@@ -19,7 +28,7 @@ O template foi criado na plataforma Canva. A criação deste modelo visual é es
 <br>
 
 Disponibilizei o acesso ao meus templates desse projeto para consulta. 
-[Clique aqui para acessar!][6]
+[Clique aqui para acessar!](https://www.canva.com/design/DAGOazLU00I/mreLdF0DA6xNvEqz6jR10A/edit?utm_content=DAGOazLU00I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 <br>
 
@@ -48,37 +57,16 @@ Devido a isso, optei por não utilizar a imagem, podendo futuramente, com novos 
      
 <br>
 
-## 📌 Linguagens utilizadas
-
-![HTML][2] 
-![CSS][3]
-
-<br>
-
-## 📌 Editor de código utilizado
-
-![VS Code][7]
-
-<br>
-
 ## 📌 Visualizar o projeto
 A página está hospedada no GitHub Pages, que é um serviço que permite hospedar sites estáticos diretamente a partir de um repositório GitHub. É ideal para criar e publicar sites pessoais, blogs e portfólios.
 
-[Clique aqui para visualizar!][5]
+[Clique aqui para visualizar!](https://danvasquesc.github.io/projeto-envio-de-atividades/)
 
 <br>
 
 ## 📌 Considerações Finais
 Este projeto foi desenvolvido com foco na simplicidade e acessibilidade, para garantir que todos os alunos, independente de suas habilidades com tecnologia, possam utilizar a plataforma de maneira eficaz. Documentar este projeto é um passo importante para que outros professores ou desenvolvedores possam entender sua utilidade, adaptar a solução para suas próprias necessidades, e também para que eu possa manter e evoluir esse projeto no futuro.
 Aceito contribuições!
-
-
-[1]: https://workspace.google.com/intl/pt-BR/lp/forms/?utm_source=google&utm_medium=cpc&utm_campaign=latam-BR-all-es-dr-BKWS-all-all-trial-e-dr-1707806-LUAC0020236&utm_content=text-ad-none-any-DEV_c-CRE_692948977897-ADGP_Hybrid%20%7C%20BKWS%20-%20EXA%20%7C%20Txt-Business-Forms-KWID_43700079700010382-kwd-2281725301160&utm_term=KW_formulario%20online%20google%20trabalho-ST_formulario%20online%20google%20trabalho&gad_source=1&gclid=Cj0KCQjwz7C2BhDkARIsAA_SZKY9p0p6X45-gGOxep8jvqADlPC_Tly3S8O6LftnZuwRttdoqyMXYY4aAlbpEALw_wcB&gclsrc=aw.ds
-[2]: https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
-[3]: https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
-[5]: https://danvasquesc.github.io/projeto-envio-de-atividades/
-[6]: https://www.canva.com/design/DAGOazLU00I/mreLdF0DA6xNvEqz6jR10A/edit?utm_content=DAGOazLU00I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-[7]: https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge
 
 ---
 

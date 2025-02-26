@@ -1,4 +1,4 @@
-# :open_file_folder: Página Web para Envio de Atividades Escolares. 
+# :open_file_folder: Plataforma de Gestão de Atividades Escolares. 
 <br>
 
 ## 📌 Introdução
